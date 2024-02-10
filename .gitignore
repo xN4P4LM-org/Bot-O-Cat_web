@@ -1,0 +1,20 @@
+# ignore database related certs
+*.pem
+*.key
+
+# ignore cloudflare credentials
+cloudflare.ini
+
+### Docker and Devcontainer ###
+
+# allow .devcontainer
+!.devcontainer/*
+!.vscode/*
+
+# ignore docker compose
+*compose*.yaml
+
+### OS generated files ###
+
+# mac files
+.DS_Store
